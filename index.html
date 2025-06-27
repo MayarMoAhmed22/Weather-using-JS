@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container my-4">
+            <img src="images/logo@2x.png" style="width: 7%; margin: 20px" />
+            <div class="d-flex flex-column justify-content-center">
+              <a class="navbar-brand h1" href="#">Weather</a>
+              <p>tagline goes here</p>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#">Photo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="backo-img py-5">
+        <div class="container">
+          <form class="d-flex position-relative">
+            <input
+              class="form-control me-2 form-control-lg rounded-pill"
+              type="search"
+              placeholder="find your location"
+              aria-label="Search"
+              id="searchCountry"
+            />
+            <button
+              class="btn px-4 position-absolute end-0 me-2"
+              id="addCountry"
+              type="submit"
+            >
+              find
+            </button>
+          </form>
+        </div>
+        <div
+          class="inner-design container table-responsive"
+          id="input-search"
+        ></div>
+      </section>
+    </main>
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <!-- Search Form -->
+          <div class="col-md-8">
+            <form class="d-flex position-relative">
+              <input
+                class="form-control me-2 form-control-lg rounded-pill"
+                type="search"
+                placeholder="Enter your email to subscribe..."
+                aria-label="Search"
+              />
+              <button
+                class="btn px-4 rounded-pill position-absolute end-0 me-2"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+
+          <!-- Social Icons -->
+          <div
+            class="col-md-4 d-flex justify-content-md-end justify-content-center icons gap-3"
+          >
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="m-0">
+            © 2025 Company Name. Designed by Themezy. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
