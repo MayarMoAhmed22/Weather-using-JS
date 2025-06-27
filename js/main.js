@@ -7,7 +7,7 @@ async function searchCountry() {
 
   try {
     const res = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=2e6c751ca183486c91093254252706&q=${input}&days=3`
+      `https://api.weatherapi.com/v1/forecast.json?key=2e6c751ca183486c91093254252706&q=${input}&days=3`
     );
     const data = await res.json();
 
